@@ -22,12 +22,7 @@ The "StorageVictim" smart contract was audited for security vulnerabilities and 
 
 ### Recommendations
 
-* Initialize Structs - Ensure that the Storage struct is properly initialized before assigning values to its members. This will prevent potential vulnerabilities caused by uninitialized pointers as described above
-```
-Storage storage str = storages[msg.sender];
-str.user = msg.sender;
-str.amount = _amount;
-```
+* Initialize Structs - Ensure that the Storage struct is properly initialized before assigning values to its members. This will prevent potential vulnerabilities caused by uninitialized pointers as described above.
 
 * Update Constructor Function - Rename the constructor function to 'constructor' in order to comply with the latest Solidity naming conventions.
 ```

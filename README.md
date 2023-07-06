@@ -34,12 +34,14 @@ npx hardhat test test/StorageVictimFixed.js
 * Ensure to have Node.js installed on your computer
 * Note that the StorageVictim.sol contract may have a number of errors flagged and not compile. This is the exact reason why the 
 StorageVictimFixed version was created to take care of the errors and get the code to compile on recent solidity versions.
+* Find my minimal smart contract security audit report in the StorageVictim_Audit_Report.md file in the root directory of this repository
 
 ## Authors
 
 Contributor(s) names and contact info
 
 Name: Adeola David Adelakun
+
 Email: adesdesk@outlook.com
 
 
