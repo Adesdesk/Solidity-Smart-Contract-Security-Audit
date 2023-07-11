@@ -42,4 +42,4 @@ It is also recommended that regular security audits be carried out, as the fast 
 ### Disclaimer
 
 This security audit report is based on the contract code available at the time of the audit. The audit conducted aims to identify
- security vulnerabilities and provide recommendations for improvement. However, it may not guarantee the absence of all possible security risks or vulnerabilities. It is always recommended conduct independent audits and tests before deploying smart contracts in a production environment.
+ security vulnerabilities and provide recommendations for improvement. However, it may not guarantee the absence of all possible security risks or vulnerabilities. It is always recommended to conduct independent audits and tests before deploying smart contracts in a production environment.
